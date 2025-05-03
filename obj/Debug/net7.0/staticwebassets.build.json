@@ -1,0 +1,12 @@
+{
+  "Version": 1,
+  "Hash": "OjNQ6ro4np0TJS4y58H3ZImk+LJx4Yng+4gS1nPxq2k=",
+  "Source": "TaskTitan.Api",
+  "BasePath": "_content/TaskTitan.Api",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": [],
+  "Endpoints": []
+}

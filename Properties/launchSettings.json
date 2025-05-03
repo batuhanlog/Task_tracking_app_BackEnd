@@ -1,0 +1,46 @@
+﻿{
+    "$schema": "https://json.schemastore.org/launchsettings.json",
+    "iisSettings": {
+        "windowsAuthentication": false,
+        "anonymousAuthentication": true,
+        "iisExpress": {
+            // IIS Express portlarını da değiştirebiliriz, ama genelde çakışmaz.
+            // Şimdilik aynı bırakıyorum. İhtiyaç olursa bunları da değiştiririz.
+            "applicationUrl": "http://localhost:20903",
+            "sslPort": 44359
+        }
+    },
+    "profiles": {
+        "http": {
+            "commandName": "Project",
+            "dotnetRunMessages": true,
+            "launchBrowser": true,
+            "launchUrl": "swagger",
+            // 5140 portunu 5141 olarak değiştiriyoruz
+            "applicationUrl": "http://localhost:5141",
+            "environmentVariables": {
+                "ASPNETCORE_ENVIRONMENT": "Development"
+            }
+        },
+        "https": {
+            "commandName": "Project",
+            "dotnetRunMessages": true,
+            "launchBrowser": true,
+            "launchUrl": "swagger",
+            // Hem HTTPS (7137 -> 7141) hem de HTTP (5140 -> 5141) portunu değiştiriyoruz
+            "applicationUrl": "https://localhost:7141;http://localhost:5141",
+            "environmentVariables": {
+                "ASPNETCORE_ENVIRONMENT": "Development"
+            }
+        },
+        "IIS Express": {
+            "commandName": "IISExpress",
+            "launchBrowser": true,
+            "launchUrl": "swagger",
+            "environmentVariables": {
+                "ASPNETCORE_ENVIRONMENT": "Development"
+            }
+            // Bu profil kendi iisSettings'deki portları kullanır.
+        }
+    }
+}
