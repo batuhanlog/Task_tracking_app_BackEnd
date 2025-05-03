@@ -92,5 +92,3 @@ Projeyi yerel makinenizde çalıştırmadan önce aşağıdaki araçların kurul
     *   API belgelerine ve test arayüzüne genellikle `https://localhost:7141/swagger` adresinden erişebilirsiniz.
 
 ---
-
-**(Gerekirse lisans, katkıda bulunma yönergeleri gibi ek bölümler eklenebilir.)**
